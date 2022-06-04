@@ -9,3 +9,5 @@ https://developer.amazon.com/en-US/alexa/alexa-skills-kit/
 
 From there you will need to create a skill invocation name, and at least 1 intent named GetForecastIntent that takes 5 numbers associated to zip codes. 
 You will additionally have to map the Alexa Skill back to an endpoint that uses your Lambda ID for the deployed skills. 
+
+After you have created the skill, you will need to take it's endpoint and update the APP_ID in index.js with the Alexa Skill ID listed as "Your Skill ID". Update your lambda function and redploy your code for use. 
